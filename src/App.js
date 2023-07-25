@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav style={{ backgroundColor: "DodgerBlue", padding: "1rem" }}>
+        <nav style={{ backgroundColor: "LightSkyBlue", padding: "1rem" }}>
           <ul style={{ display: "flex", listStyle: "none", justifyContent: "center" }}>
             <li style={{ marginRight: "1rem" }}>
               <Link to="/" style={{ textDecoration: "none", color: "black" }}>Mahasiswa</Link>
