@@ -64,21 +64,21 @@ function App() {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>Formulir Pemesanan</h1>
+      <h1>Formulir Reservasi Cuci Mobil</h1>
       <form onSubmit={handleSubmit} style={{ marginBottom: "2rem" }}>
-        <input type="text" value={nama} onChange={(e) => setNama(e.target.value)} placeholder="Jenis Pesanan" style={{ marginRight: "1rem" }} />
-        <input type="text" value={harga} onChange={(e) => setHarga(e.target.value)} placeholder="Harga" style={{ marginRight: "1rem" }} />
-        <input type="text" value={kategori} onChange={(e) => setKategori(e.target.value)} placeholder="Jumlah" style={{ marginRight: "1rem" }} />
+        <input type="text" value={nama} onChange={(e) => setNama(e.target.value)} placeholder="Nama" style={{ marginRight: "1rem" }} />
+        <input type="text" value={harga} onChange={(e) => setHarga(e.target.value)} placeholder="No Telf" style={{ marginRight: "1rem" }} />
+        <input type="text" value={kategori} onChange={(e) => setKategori(e.target.value)} placeholder="Waktu" style={{ marginRight: "1rem" }} />
         <button type="submit" style={{ backgroundColor: "LightBlue", color: "white", padding: "0.5rem 1rem", borderRadius: "4px", border: "none", cursor: "pointer" }}>{selectedMenuId ? "Update Data" : "Create Data"}</button>
       </form>
 
-      <h1>Daftar Pesanan</h1>
+      <h1>List Reservasi Cuci Mobil</h1>
       <table style={{ margin: "0 auto", borderCollapse: "collapse" }}>
         <thead>
           <tr>
-            <th style={{ padding: "0.5rem", backgroundColor: "LightCyan" }}>Jenis Pesanan</th>
-            <th style={{ padding: "0.5rem", backgroundColor: "LightCyan" }}>Harga</th>
-            <th style={{ padding: "0.5rem", backgroundColor: "LightCyan" }}>Jumlah</th>
+            <th style={{ padding: "0.5rem", backgroundColor: "LightCyan" }}>Nama</th>
+            <th style={{ padding: "0.5rem", backgroundColor: "LightCyan" }}>No Telf</th>
+            <th style={{ padding: "0.5rem", backgroundColor: "LightCyan" }}>Waktu</th>
             <th style={{ padding: "0.5rem", backgroundColor: "LightCyan" }}>Actions</th>
           </tr>
         </thead>
