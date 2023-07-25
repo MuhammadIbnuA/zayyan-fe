@@ -10,7 +10,7 @@ function App() {
         <nav style={{ backgroundColor: "LightSkyBlue", padding: "1rem" }}>
           <ul style={{ display: "flex", listStyle: "none", justifyContent: "center" }}>
             <li style={{ marginRight: "1rem" }}>
-              <Link to="/" style={{ textDecoration: "none", color: "black" }}>Mahasiswa</Link>
+              <Link to="/" style={{ textDecoration: "none", color: "black" }}>Reservasi</Link>
             </li>
             <li style={{ marginRight: "1rem" }}>
               <Link to="/login" style={{ textDecoration: "none", color: "black" }}>Login</Link>
